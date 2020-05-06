@@ -174,7 +174,7 @@ function createDiv(height, width) {
   div.style.backgroundColor=colour;
   return (div);
 }
-// ]]>
+//  ]]>
 </script>
 
    
