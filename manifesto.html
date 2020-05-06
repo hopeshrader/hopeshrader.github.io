@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sample Manifesto </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="manifesto.css">
+    
+    
+<!--  FONTS  -->
+<link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Codystar&family=Montserrat+Alternates:wght@200&family=Orbitron&family=Pathway+Gothic+One&family=Six+Caps&family=Staatliches&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+    <h1 data-text="Design Manifesto"><span>Design Manifesto.</span></h1>
+
+        
+<br>
+<div class="Lines">
+    <p id="lineOne">This line is red.</p>
+    <br>
+    <p id="lineTwo">This line is size 50 pixel font and red.</p>
+    <br>
+    <p id="lineThree">This line is very hard to read, 6 pixel font and blue.</p>
+    <br>
+    <p id="lineFour">This line is aligned right and highlighted hot pink.</p>
+    <br>
+    <p id="lineFive">I blush when you hover over me.</p>
+    <br>
+    <p id="lineSix">This line is underlined.</p>
+    <br>
+    <p id="lineSeven">This line is in Staatliches font.</p>
+    <br>
+    <p id="lineEight">This line has a 150px-wide margin on the left.</p>
+    <br>
+    <p id="lineNine">This line has a bold weight.</p>
+    <br>
+    <p id="lineTen">This line is has shadows</p>
+    <br>
+    <p id="lineEleven">This line has -1px letter spacing and aligned right.</p>
+    <br>
+    <p id="lineTwelve">This line is size 25px and has a deep pink line across the text.</p>
+    <br>
+    <p id="lineThirteen">This line is in font Barriecito at size 40px.</p>
+    <br>
+    <ul id="lineFourteen">
+        <p>This line is 10px and is a list of blue lines.</p>
+        <li>line</li>
+        <li>line</li>
+        <li>line</li>
+    </ul>
+    <br>
+    <p id="lineFifteen">This line has a red dotted underline.</p>
+    <br>
+    <p id="lineSixteen">This line is size 40px has a 2 pixel stroke weight.</p>
+    <br>
+    <p id="lineSeventeen">This line is underlined and has 5px letter spacing</p>
+    <br>
+    <p id="lineEighteen">This line floats between 2 waves.</p>
+</div>
+    <br>
+    
+    <p>
+    <button class="btn btn-1"><a href="https://artfiles.rutgers.edu/~shraderh@art.rutgers.edu/" style="text-decoration:none">BACK TO HOMEPAGE</a></button>
+    
+    <button class="btn btn-1"><a href="https://artfiles.rutgers.edu/~shraderh@art.rutgers.edu/Works/Works.html"style="text-decoration:none">BACK TO PROJECTS</a></button>    
+    <button class="btn btn-1"><a href="https://artfiles.rutgers.edu/~shraderh@art.rutgers.edu/People/People.html" style="text-decoration:none">BACK TO PEOPLE</a></button>
+</p>
+    
+    <br>
+
+    
+</body>
+    
+    <style>
+    
+    /*artrutgers2*/
+
+
+body {
+    height: 100%;
+    background: white;
+    color: hsl(240, 30, 10);
+    font-family: 'Pathway Gothic One', sans-serif;
+    letter-spacing: 0.125em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin: 3em 0 2em;
+    padding: inherit;
+    font-size: 150px;
+    font-family: 'Six Caps', sans-serif;
+}
+
+.btn {
+    background: none;
+    border: 0px solid;
+    border-bottom-width: 0px;
+    font: inherit;
+    letter-spacing: inherit;
+    margin: 1em;
+    padding: 1em 2em;
+    text-transform: inherit;
+    transition: color 1s;
+}
+
+.btn-1 {
+    $color: #9c89f7;
+    color: $color;
+}
+
+.btn-1:hover {
+    animation: halftone 1s forwards;
+    background: radial-gradient(circle, $red, 0.2em, transparent 0.25em) 0 0 / 1.25em 1.25em, radial-gradient(circle, $color 0.2em, transparent 0.25em) 6.25em 6.25em / 1.25em 1.25em;
+    color: adjust-hue (palevioletred,180);
+}
+
+@keyframes halftone {
+    100% {
+        background-size: 2.375em 2.375em, 0.1em 0.1em;
+    }
+}
+
+
+h1{
+    font-family: 'Six Caps', sans-serif;
+    text-shadow: -5px 70px white, -5px -5px hotpink, -70px 65px blue, -1px -5px hotpink;
+}
+
+.Lines {
+    margin: 100px;
+    margin-bottom: 100px;
+    
+}
+
+
+#lineOne{
+    color: orangered;
+}
+
+#lineTwo{
+    font-size: 40px;
+    color: orangered
+}
+
+#lineThree{
+    color: blue;
+     font-size: 10px;
+    
+}
+
+#lineFour{
+    text-align: right;   
+    background-color:hotpink
+}
+
+#lineFive:hover {
+    color: hotpink;
+    }
+
+#lineSix{
+  
+    text-decoration-line:underline
+}
+
+#lineSeven{
+    font-family: 'Staatliches', cursive;
+}
+
+#lineEight{
+    margin-left: 150px;
+}
+
+#lineNine{
+    font-weight: 600
+}
+
+#lineTen{
+    text-shadow: -5px -5px hotpink, -70px 30px blue, -1px -5px hotpink;
+}
+
+#lineEleven{
+    letter-spacing: -1px;
+    text-align: right
+}
+
+#lineTwelve{
+    text-decoration-line: line-through;
+    text-decoration-color: deeppink;
+    font-size: 25px;
+}
+
+#lineThirteen{
+    font-size: 40px;
+    font-family: 'Barriecito', cursive;
+}
+
+ul#lineFourteen{
+  list-style-type: none;
+    font-size: 10px;
+    color: blue
+}
+
+#lineFifteen{
+   border-bottom-style: dashed;
+    border-bottom-color: red
+}
+
+#lineSixteen{
+   color: white;
+	font-size: 40px;
+	-webkit-text-stroke: 2px black;
+}
+
+#lineSeventeen{
+     letter-spacing: 5px;
+    text-decoration: underline
+    
+   
+}
+
+#lineEighteen{
+   text-decoration: underline overline wavy blue;
+
+    }
+
+    </style>
+
+</html>
